@@ -1,0 +1,7 @@
+A inteligência artificial estuda como sistemas computacionais podem simular comportamentos que consideramos inteligentes, como aprender com dados, reconhecer padrões e tomar decisões diante de situações novas.
+
+Um dos ramos mais conhecidos é o aprendizado de máquina, em que um algoritmo ajusta seus parâmetros a partir de grandes volumes de dados, em vez de seguir regras escritas manualmente por um programador. Quanto maior e mais representativa a base de dados de treinamento, melhor tende a ser o desempenho do modelo resultante.
+
+Processamento de linguagem natural é a área da inteligência artificial voltada para textos e fala. Ela envolve etapas parecidas com um pré-processamento de texto tradicional, como remoção de pontuação e tokenização, antes de aplicar algoritmos mais sofisticados para interpretar o significado das palavras.
+
+Apesar dos avanços recentes, sistemas de inteligência artificial ainda dependem fortemente da qualidade dos dados utilizados e da estrutura dos algoritmos escolhidos, reforçando a importância de uma boa análise de complexidade e organização de dados desde as etapas iniciais de um projeto.

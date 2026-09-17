@@ -1,0 +1,7 @@
+Uma rede de computadores conecta diferentes dispositivos para que eles possam trocar dados entre si, seguindo protocolos que definem como essa comunicação deve acontecer.
+
+Quando um usuário realiza uma busca na internet, a requisição percorre vários pontos da rede até chegar a um servidor, que processa o pedido e devolve uma resposta. Esse processo depende de algoritmos de roteamento, responsáveis por decidir o melhor caminho entre a origem e o destino dos dados, ainda que a rede mude constantemente.
+
+Assim como estruturas de dados internas de um programa, uma rede também pode ser representada como um grafo, em que cada dispositivo é um nó e cada conexão é uma aresta. Diversos algoritmos de busca e de menor caminho se aplicam diretamente a problemas de roteamento em redes.
+
+A eficiência de uma rede depende tanto da qualidade física das conexões quanto da qualidade dos algoritmos que decidem como os dados vão trafegar por ela.

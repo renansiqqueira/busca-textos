@@ -1,0 +1,7 @@
+Um banco de dados é um conjunto organizado de informações armazenadas de forma estruturada, permitindo que sistemas insiram, consultem, atualizem e removam dados de maneira eficiente.
+
+Bancos de dados relacionais organizam as informações em tabelas, onde cada linha representa um registro e cada coluna um atributo. Para acelerar consultas sobre grandes volumes de dados, esses sistemas utilizam estruturas como índices, que funcionam de forma parecida com um índice invertido: em vez de percorrer a tabela inteira, o sistema consulta o índice e localiza rapidamente os registros desejados.
+
+Tabelas hash também são amplamente utilizadas internamente por bancos de dados, especialmente para operações de busca por chave, graças à complexidade média O(1) que essa estrutura proporciona.
+
+Ao projetar um banco de dados, é importante equilibrar a velocidade das consultas com o espaço de armazenamento necessário, já que estruturas de indexação aceleram a busca, mas também consomem memória adicional.

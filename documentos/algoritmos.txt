@@ -1,0 +1,9 @@
+Um algoritmo é uma sequência finita e bem definida de passos que resolve um problema ou realiza uma tarefa específica. Antes de qualquer linha de código ser escrita, o algoritmo já existe na forma de um raciocínio lógico, muitas vezes representado em pseudocódigo ou em um fluxograma.
+
+A escolha do algoritmo certo influencia diretamente o desempenho de um programa. Um algoritmo de busca sequencial percorre uma lista item por item até encontrar o valor desejado, o que se torna lento quando a quantidade de dados cresce. Já um algoritmo de busca binária, aplicado sobre dados ordenados, elimina metade das possibilidades a cada comparação, tornando a busca muito mais rápida.
+
+Estruturas de dados e algoritmos caminham juntos. Uma lista, uma árvore ou uma tabela hash não têm valor sozinhas: o que importa é como os algoritmos utilizam essas estruturas para inserir, remover e consultar informações de forma eficiente. Por isso, ao projetar um sistema, o programador precisa pensar tanto na estrutura de dados quanto nos algoritmos que vão operar sobre ela.
+
+A análise de complexidade é a ferramenta usada para comparar algoritmos de forma justa, sem depender do computador específico onde o código é executado. Ela descreve como o tempo de execução ou o consumo de memória cresce conforme o tamanho da entrada aumenta, permitindo prever o comportamento do programa mesmo antes de testá-lo com grandes volumes de dados.
+
+Algoritmos de ordenação, algoritmos de busca em grafos e algoritmos de processamento de texto formam a base de praticamente todo sistema de software moderno, desde motores de busca até aplicativos de recomendação.

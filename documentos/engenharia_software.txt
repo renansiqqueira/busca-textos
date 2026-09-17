@@ -1,0 +1,7 @@
+Engenharia de software é a área responsável por aplicar princípios de engenharia ao processo de desenvolver, testar e manter sistemas de software de forma organizada e confiável.
+
+Um dos pilares dessa área é a escolha correta de estruturas de dados e algoritmos para cada problema, já que decisões tomadas no início de um projeto afetam diretamente o desempenho do sistema quando a quantidade de dados cresce. Um sistema mal projetado pode funcionar bem com poucos dados, mas se tornar extremamente lento à medida que o volume de informações aumenta.
+
+Boas práticas de engenharia de software incluem organizar o código em módulos com responsabilidades bem definidas, escrever comentários relevantes e documentar decisões de implementação.
+
+Testar um sistema com dados representativos, e não apenas com poucos exemplos artificiais, é essencial para garantir que os algoritmos escolhidos realmente se comportam como esperado quando aplicados a uma base de dados maior e mais próxima da realidade.

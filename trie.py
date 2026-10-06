@@ -7,6 +7,7 @@ class Trie:
     def __init__(self):
         self.raiz = NoTrie()
 
+    #Complexidade O(m)
     def inserir(self, palavra):
         no_atual = self.raiz
         for letra in palavra:
@@ -15,6 +16,7 @@ class Trie:
             no_atual = no_atual.filhos[letra]
         no_atual.fim_de_palavra = True
 
+    #Complexidade O(m)
     def buscar(self, palavra):
         no_atual = self.raiz
         for letra in palavra:
@@ -31,6 +33,7 @@ class Trie:
             no_atual = no_atual.filhos[letra]
         return no_atual
 
+    #Complexidade O(m + k)
     def buscar_prefixo(self, prefixo):
         no_prefixo = self._no_do_prefixo(prefixo)
         if no_prefixo is None:

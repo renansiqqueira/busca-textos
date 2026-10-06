@@ -2,7 +2,7 @@
 
 Trabalho Prático (A1) — Unidade 2 — Análise e Otimização de Sistemas — UVA
 
-**Equipe:** Renan, Léo e Vinicius
+**Equipe:** Leonardo Salgado, Renan Siqueira e Vinicius Lima
 
 ## Sobre o projeto
 Sistema que lê arquivos `.txt`, processa o texto e permite buscas rápidas usando três estruturas/algoritmos:
@@ -39,10 +39,11 @@ projeto/
 ```
 python gui.py
 ```
-A janela possui cinco abas:
+A janela possui seis abas:
 - **Buscar palavra**: mostra os documentos em que a palavra aparece (índice invertido)
 - **Buscar por prefixo**: lista as palavras que começam com o prefixo e seus documentos, atualizando a cada tecla (Trie)
 - **Buscar sequência (KMP)**: procura a sequência no texto original e mostra trechos de contexto
+- **Adicionar documento**: cria um novo `.txt` na pasta `documentos/` a partir de um nome e de um texto digitado, e reconstrói a Trie e o índice invertido na hora
 - **Documentos**: lista os arquivos processados
 - **Estatísticas**: total de documentos, palavras, termos distintos e tempos de construção das estruturas
 
@@ -65,4 +66,4 @@ Cada módulo pode ser executado sozinho para testes:
 | `python kmp.py` | Busca de sequência pelo terminal |
 
 ## Observação
-Novos arquivos `.txt` adicionados à pasta `documentos/` são processados automaticamente na próxima execução, sem necessidade de alterar o código.
+Novos arquivos `.txt` adicionados à pasta `documentos/` são processados automaticamente na próxima execução, sem necessidade de alterar o código. Pela interface gráfica, a aba **Adicionar documento** faz isso sem precisar reiniciar o programa.
